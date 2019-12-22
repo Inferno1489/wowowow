@@ -1,0 +1,284 @@
+*, p, h1, h2{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+.logo-line-div{
+	/*width: 100vw;*/
+	height: 10vh;
+	background-color: #f7f8fa;
+}
+.logo-img-div{
+	float: left;
+	margin-left: 260px;
+	margin-top: 18px;
+}
+.logo-img-div img{
+	width: 64px;
+	height: 64px;
+}
+.logo-text-div{
+	float: left;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.header-pic-div{
+	/*width: 100vw;*/
+	height: 90vh;
+	background-image: url("bg.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.header-pic-div::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.4;
+	z-index: 1;
+}
+.header-pic-div-container{
+	position: relative;
+	z-index: 2;
+}
+.hpdc-title{
+	width: 40vw;
+	margin: auto;
+	border-bottom: 3px solid #5681b1;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+.hdpc-title2{
+	text-align: center;
+	color: #dedede;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 50px;
+}
+.hdpc-button{
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #5681b1;
+	text-align: center;
+	margin-top: 70px;
+	cursor: pointer;
+}
+.hdpc-button:hover{
+	border: 2px solid #7699b2;
+}
+a{
+	text-decoration: none;
+	color: #dedede;
+	position: relative;
+	top: 12px;
+	font-size: 20px;
+}
+.hdpc-arrow-down{
+	width: 32px;
+	margin: auto;
+	margin-top: 100px;
+}
+.hdpc-arrow-down img{
+	width: 32px;
+	height: 32px;
+}
+
+
+
+.div_img {
+	/*width: 100vw;*/
+	height: 75vh;
+	background-image: url("https://404store.com/2017/09/03/DeskWallsD0G321.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.div1 {
+	/*width: 100vw;*/
+	height: 70vh;
+	background-color: #000000;
+	opacity: 0.7;
+	padding-top: 5vh;
+}
+
+.div12 {
+	width: 305px;
+	margin: auto;
+}
+
+.div_text {
+	width: 250px;
+	color: white;
+	font-size: 38px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div_text_two {
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+	color: #ACAAA5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.div_name {
+	width: 300px;
+	margin: auto;
+}
+
+.ddd {
+	float: left;
+}
+
+.div_text_three {
+	float: left;
+	width: 200px;	
+	color: #ACAAA5;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.div_send {
+	float: left;
+	margin-top: 15px;
+	width: 80px;
+}
+
+.send {
+	opacity: 0.3;
+	width: 80px;
+	height: 30px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid skyblue;
+}
+
+.send:hover {
+	opacity: 0.6;
+	background-color: #454545; 
+}
+
+.c {
+	background-color: grey;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.a {
+	opacity: 0.3;
+	width: 290px;
+	height: 30px;
+	padding-left: 10px;
+	background-color: #000000;
+	border: 2px solid #FFFFFF;
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+
+.a:hover {
+	opacity: 0.6;
+	background-color: #454545;
+}
+
+.b:hover {
+	opacity: 0.6;
+	background-color: #454545;
+}
+
+.div_email {
+	width: 300px;
+	margin: auto;
+}
+
+.b {
+	opacity: 0.3;
+	width: 290px;
+	padding-left: 10px;
+	padding-bottom: 80px;
+	background-color: #000000;
+	border: 2px solid #FFFFFF;
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+
+.div_message {
+	width: 300px;
+	margin: auto;
+}
+
+
+
+
+
+.bot{
+	/*width: 100vw;*/
+	height: 10vh;
+	background-color: #f7f8fa;
+}
+.p{
+	text-align: left;
+	float: left;
+	margin-left: 225px;
+	margin-top: 33px;
+}
+.loh{
+	font-size: 18px;
+}
+.i1{
+	margin-top: 25px;
+	margin-right: 3px; 
+	width: 30px;
+	text-align: right;
+	float: left;
+	margin-left: 1000px;
+}
+.i2{
+	margin-top: 25px;
+	margin-right: 3px; 
+	width: 30px;
+	text-align: right;
+	float: left;
+}
+.i3{
+	margin-top: 25px;
+	margin-right: 3px; 
+	width: 30px;
+	float: left;
+}
+.i4{
+	margin-top: 25px;
+	margin-right: 3px; 
+	width: 30px;
+	float: left;
+}
+.i11{
+	width: 30px;
+	height: 30px;
+
+}
+.i12{
+	width: 30px;
+	height: 30px;
+	
+}
+.i13{
+	width: 30px;
+	height: 30px;
+	
+}
+.i14{
+	width: 30px;
+	height: 30px;
+	
+}
